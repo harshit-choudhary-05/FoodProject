@@ -11,12 +11,10 @@ const aiRoutes = require("./routes/ai.routes");
 
 const errorMiddleware = require("./middlewares/errors");
 
-app.use(
-  cors({
-    // origin: "https://genie-food-app.netlify.app",
-    origin: "http://localhost:5173",
+app.use(cors({
+    origin: "https://food-project-alpha-ten.vercel.app",
     credentials: true,
-  }),
+})
 );
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
