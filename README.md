@@ -1,5 +1,9 @@
 # 🍔 OrderIt - AI Powered Food Ordering App
 
+## 🔗 Live Demo
+
+[https://food-project-alpha-ten.vercel.app](https://food-project-alpha-ten.vercel.app)
+
 ## Features
 
 - Restaurant Listing
